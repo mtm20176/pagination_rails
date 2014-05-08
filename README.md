@@ -4,7 +4,7 @@ pagination_rails
 You got a honking ActiveRecord result and want to let users page through the result? Read on.
 
 Overview
-The general gist looks like you need to first, set a configuration in the model to limit records returned per query, second adjust the controller or  scope in the model, to use the pagination, third in the ERB, create a partial for the paginated results <%= render @bookmarks %>, followed by a div with id infinite-scrolling, with <%= will_paginate %>
+The general gist looks like you need to first, set an optional configuration in the model to limit records returned per query, second adjust the controller or  scope in the model, to use the pagination, with the limit records config, third in the ERB, add the pagination control with <%= will_paginate %>
 
 https://github.com/mislav/will_paginate
 
