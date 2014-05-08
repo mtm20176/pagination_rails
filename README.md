@@ -33,7 +33,7 @@ class Post < ActiveRecord::Base
 ```
 Controller
 
-# set per_page globally, or optionally in the ActiveRecord - see 2nd example below.
+set per_page globally, or optionally in the ActiveRecord - see 2nd example below.
 ```
 WillPaginate.per_page = 20
 
