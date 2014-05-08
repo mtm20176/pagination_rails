@@ -16,14 +16,14 @@ http://mislav.uniqpath.com/will_paginate/
 
 
 Gem file
-
+```
 ## pagination
 gem 'will_paginate', '~> 3.0'
-
+```
 be sure to run:
+```
 bundle install
-rbenv rehash
-
+```
 Model
 optional to add this( I put in Controller )
 ```
